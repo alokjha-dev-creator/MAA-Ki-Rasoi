@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Mobile-first navigation (stacked beautifully for phones) */
+nav {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: bisque;
+    z-index: 1000;
+}
+
+button {
+    background-color: rgb(255, 217, 104);
+    padding: 10px 20px;
+    width: 200px; /* Uniform width looks much cleaner on mobile */
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+h1, h2 {
+    padding: 20px;
+}
+
+h2 {
+    background-color: rgb(255, 195, 122);
+}
+
+/* This forces giant images to shrink perfectly to fit mobile screens */
+.hero-img, .cuisine-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cuisine-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+div {
+    color: #605d5d;
+}
+
+/* Desktop override: turns buttons side-by-side when the screen is wide */
+@media only screen and (min-width: 480px) {
+    body {
+        background-color: beige;
+    }
+    nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+    button {
+        width: auto;
+    }
+}
