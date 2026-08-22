@@ -9,7 +9,7 @@ This project features a curated showcase of global cuisines, including **Indian*
 ## 🚀 Live Demo
 
 Check out the live website on your phone or desktop here:
-👉https://maa-ki-rasoi-five.vercel.app/ (https://alokjha-dev-creator.github.io/MAA-Ki-Rasoi/)** *(Make sure to enable GitHub Pages to activate this link!)*
+👉https://maa-ki-rasoi-five.vercel.app/  (Make sure to enable GitHub Pages to activate this link!)*
 
 ---
 
